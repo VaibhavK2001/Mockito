@@ -15,7 +15,7 @@ public class TodoBussinessImpl {
         List<String> filterTodos = new ArrayList<>();
         List<String> todos = todoService.retrieveTodos(user);
         for (String todo : todos) {
-            if (todo.contains("spring")) {
+            if (todo.contains("Spring")) {
                 filterTodos.add(todo);
             }
         }
